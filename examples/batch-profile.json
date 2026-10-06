@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "model": "SLX-BATCH-01",
+  "revision": "B",
+  "_slx": {
+    "author": "Marco Pezzullo · Silicon LogiX",
+    "license": "Silicon LogiX Evaluation License 1.0"
+  },
+  "tests": [
+    { "name": "Supply voltage", "kind": "numeric", "unit": "V", "min": 4.9, "max": 5.1 },
+    { "name": "Idle current", "kind": "numeric", "unit": "A", "max": 0.3 },
+    { "name": "Barcode scan", "kind": "functional" },
+    { "name": "Status LED", "kind": "functional" }
+  ]
+}

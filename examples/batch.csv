@@ -1,0 +1,8 @@
+serial;test;value;unit;min;max;status;diagnostic
+BX-1001;Supply voltage;5.02;V;4.9;5.1;;
+BX-1001;Idle current;0.22;A;;0.3;;
+BX-1001;Barcode scan;;;;;PASS;Scanner matched
+BX-1001;Status LED;;;;;PASS;
+BX-1002;Supply voltage;5.16;V;4.9;5.1;;
+BX-1002;Idle current;0.20;A;;0.25;;
+BX-1002;Barcode scan;;;;;PASS;Scanner matched

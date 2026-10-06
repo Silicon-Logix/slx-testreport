@@ -1,0 +1,15 @@
+serial;test;value;unit;min;max;status;diagnostic
+SLX-00042;Input supply;12,08;V;11,80;12,20;;
+SLX-00042;5 V output;5,04;V;4,90;5,10;PASS;
+SLX-00042;Idle current;0,21;A;0;0,30;;
+SLX-00042;Output ripple;18;mV;0;25;;
+SLX-00042;Board temperature;42;°C;0;70;;
+SLX-00042;ADC reference;2,498;V;2,480;2,520;;
+SLX-00042;"Auxiliary; output voltage";3,31;V;3,20;3,40;;
+SLX-00042;Load current;0,42;A;0;0,30;;
+SLX-00042;Insulation resistance;;MΩ;100;;;
+SLX-00042;Oscillator frequency;1001;kHz;990;1010;;
+SLX-00042;Reverse leakage;0,02;mA;;0,05;;
+SLX-00042;Barcode readability;;;;;PASS;Scanner read confirmed
+SLX-00042;Relay switching;;;;;FAIL;Contact did not close
+SLX-00042;Firmware programming;;;;;SKIPPED;Awaiting approved image

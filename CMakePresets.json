@@ -1,0 +1,29 @@
+{
+  "version": 3,
+  "vendor": {
+    "siliconlogix/slx-test-report": {
+      "copyright": "(c) 2026 Marco Pezzullo (Silicon LogiX)",
+      "author": "Marco Pezzullo",
+      "license": "Silicon LogiX Evaluation License 1.0"
+    }
+  },
+  "cmakeMinimumRequired": { "major": 3, "minor": 21, "patch": 0 },
+  "configurePresets": [
+    {
+      "name": "windows-mingw",
+      "displayName": "Windows · Qt MinGW · Release",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build/windows-mingw",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "CMAKE_PREFIX_PATH": "$env{QT_ROOT}"
+      }
+    }
+  ],
+  "buildPresets": [
+    { "name": "windows-mingw", "configurePreset": "windows-mingw" }
+  ],
+  "testPresets": [
+    { "name": "windows-mingw", "configurePreset": "windows-mingw" }
+  ]
+}

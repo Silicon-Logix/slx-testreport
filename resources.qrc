@@ -1,0 +1,33 @@
+<!--
+Silicon LogiX / SLX Test Report
+Copyright (c) 2026 Marco Pezzullo (Silicon LogiX).
+Author: Marco Pezzullo
+License: Silicon LogiX Evaluation License 1.0. See LICENSE.
+-->
+<RCC>
+    <qresource prefix="/">
+        <file alias="qml/Main.qml">qml/Main.qml</file>
+        <file alias="qml/Theme.qml">qml/Theme.qml</file>
+        <file alias="qml/ActionButton.qml">qml/ActionButton.qml</file>
+        <file alias="qml/MetaField.qml">qml/MetaField.qml</file>
+        <file alias="qml/AppHeader.qml">qml/AppHeader.qml</file>
+        <file alias="qml/MetadataPanel.qml">qml/MetadataPanel.qml</file>
+        <file alias="qml/ResultsPanel.qml">qml/ResultsPanel.qml</file>
+        <file alias="qml/ReportPreview.qml">qml/ReportPreview.qml</file>
+        <file alias="qml/AnalysisView.qml">qml/AnalysisView.qml</file>
+        <file alias="qml/NotificationBar.qml">qml/NotificationBar.qml</file>
+        <file alias="qml/WorkflowStrip.qml">qml/WorkflowStrip.qml</file>
+        <file alias="qml/AboutDialog.qml">qml/AboutDialog.qml</file>
+        <file alias="qml/LicenseDialog.qml">qml/LicenseDialog.qml</file>
+        <file alias="qml/CsvComposerDialog.qml">qml/CsvComposerDialog.qml</file>
+        <file alias="brand/logo.svg">assets/brand/logo-light.svg</file>
+        <file alias="brand/report-icon.svg">assets/brand/report-icon.svg</file>
+        <file alias="examples/demo.csv">examples/demo.csv</file>
+        <file alias="examples/demo-profile.json">examples/demo-profile.json</file>
+        <file alias="examples/batch.csv">examples/batch.csv</file>
+        <file alias="examples/batch-profile.json">examples/batch-profile.json</file>
+        <file alias="legal/LICENSE">LICENSE</file>
+        <file alias="legal/third-party-notices">THIRD_PARTY_NOTICES.md</file>
+        <file alias="legal/qt-license">licenses/Qt-Open-Source-LICENSE.txt</file>
+    </qresource>
+</RCC>
